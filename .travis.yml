@@ -1,7 +1,7 @@
 os: osx
 
 install:
-  - brew update && brew bundle --file ./homebrew/Brewfile
+  - brew update && brew bundle --file=homebrew/Brewfile
 
 script:
   - echo 0
